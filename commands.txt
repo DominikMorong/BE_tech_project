@@ -1,0 +1,12 @@
+--server--
+php artisan migrate
+php artisan db:seed
+php artisan storage:link
+
+--web--
+npm install
+npm run dev 
+
+--admin--
+user@root.com
+user@root
